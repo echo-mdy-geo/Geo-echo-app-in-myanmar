@@ -1,0 +1,72 @@
+[debug] [2018-08-18T18:10:14.017Z] ----------------------------------------------------------------------
+[debug] [2018-08-18T18:10:14.017Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aspire\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-18T18:10:14.017Z] CLI Version:   4.1.2
+[debug] [2018-08-18T18:10:14.017Z] Platform:      win32
+[debug] [2018-08-18T18:10:14.017Z] Node Version:  v8.11.3
+[debug] [2018-08-18T18:10:14.017Z] Time:          Sun Aug 19 2018 00:40:14 GMT+0630 (Myanmar Standard Time)
+[debug] [2018-08-18T18:10:14.017Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-18T18:10:14.127Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-18T18:10:14.127Z] > authorizing via signed-in user
+[debug] [2018-08-18T18:10:14.127Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/echo-app-in-myanmar  
+ 
+[debug] [2018-08-18T18:10:15.750Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-18T18:10:15.750Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/echo-app-in-myanmar  
+ 
+[debug] [2018-08-18T18:10:17.424Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Aspire\echo-app-in-myanmar'...
+[info] 
+[debug] [2018-08-18T18:10:17.440Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/317428709969/clients/_:getWebAppConfig  
+ 
+[debug] [2018-08-18T18:10:18.392Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-08-19T12:10:19.947Z] ----------------------------------------------------------------------
+[debug] [2018-08-19T12:10:20.003Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aspire\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-19T12:10:20.004Z] CLI Version:   4.1.2
+[debug] [2018-08-19T12:10:20.004Z] Platform:      win32
+[debug] [2018-08-19T12:10:20.004Z] Node Version:  v8.11.3
+[debug] [2018-08-19T12:10:20.072Z] Time:          Sun Aug 19 2018 18:40:20 GMT+0630 (Myanmar Standard Time)
+[debug] [2018-08-19T12:10:20.073Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-19T12:10:20.344Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-19T12:10:20.345Z] > authorizing via signed-in user
+[debug] [2018-08-19T12:10:20.352Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-19T12:10:20.353Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-08-19T12:10:21.354Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-19T12:10:21.422Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/echo-app-in-myanmar  
+ 
+[debug] [2018-08-19T12:11:04.103Z] Error: connect ETIMEDOUT 104.197.85.31:443
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 104.197.85.31:443
+[debug] [2018-08-19T12:11:20.057Z] ----------------------------------------------------------------------
+[debug] [2018-08-19T12:11:20.098Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aspire\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-19T12:11:20.099Z] CLI Version:   4.1.2
+[debug] [2018-08-19T12:11:20.099Z] Platform:      win32
+[debug] [2018-08-19T12:11:20.099Z] Node Version:  v8.11.3
+[debug] [2018-08-19T12:11:20.100Z] Time:          Sun Aug 19 2018 18:41:20 GMT+0630 (Myanmar Standard Time)
+[debug] [2018-08-19T12:11:20.100Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-19T12:11:20.127Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-19T12:11:20.128Z] > authorizing via signed-in user
+[debug] [2018-08-19T12:11:20.161Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/echo-app-in-myanmar  
+ 
+[debug] [2018-08-19T12:11:21.696Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-19T12:11:21.700Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/echo-app-in-myanmar  
+ 
+[debug] [2018-08-19T12:11:23.401Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Aspire\echo-app-in-myanmar'...
+[info] 
+[debug] [2018-08-19T12:11:23.407Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/317428709969/clients/_:getWebAppConfig  
+ 
+[debug] [2018-08-19T12:11:24.376Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
