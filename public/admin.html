@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -41,7 +40,7 @@
     <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
 
     <!-- Your styles -->
-    <link rel="stylesheet" href="styles/main.css">
+    <!--link rel="stylesheet" href="styles/main.css"-->
 
     <script  src="/__/firebase/5.4.0/firebase-app.js"></script>
     <!-- include only the Firebase features as you need -->
@@ -60,7 +59,7 @@
     <!-- Firebase-UI -->
     <script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
     <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
-    <title>Apps in Myanmar CU (MDY)</title>
+    
  </head>
  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -68,15 +67,39 @@
         <div class="mdl-layout__header-row">
         </div>
         <div class="mdl-layout__header-row">
-      <!-- Add spacer, to align navigation to the right -->
+          <!--span class="mdl-layout-title">Apps in Myanmar CU(MDY)</span>
+          <div class="mdl-layout-spacer"></div>
+          <nav class="mdl-navigation mdl-layout--large-screen-only" style="background-color: rgb(63,81,181);">
+          <a href="index.html" class="is-active mdl-navigation__link"><i class="small material-icons">home</i></a>
+          <a href="author.html" class="mdl-navigation__link"><i class="small material-icons">person</i></a>
+          <a href="bachelor.html" class="mdl-navigation__link"><i class="small material-icons">school</i></a>
+          <a href="year.html" class="mdl-navigation__link"><i class="small material-icons">today</i></a> 
+          <a href="publisher.html" class="mdl-navigation__link"><i class="small material-icons">bookmarks</i></a>
+          <a href="login.html" class="mdl-navigation__link"><i class="small material-icons">lock_open</i></a>
+          </nav> 
+        </div>
+      </header>
+
+        <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Apps in Myanmar CU(MDY)</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="index.html"><i class="small material-icons" style="padding-right: 20px">home</i>Home</a>
+          <a class="mdl-navigation__link" href="author.html"><i class="small material-icons" style="padding-right: 20px">person</i>Authors</a>
+          <a class="mdl-navigation__link" href="bachelor.html"><i class="small material-icons" style="padding-right: 20px">school</i>Bachelor</a>
+          <a class="mdl-navigation__link" href="year.html"><i class="small material-icons" style="padding-right: 20px">today</i>Years</a>
+          <a class="mdl-navigation__link" href="publisher.html"><i class="small material-icons" style="padding-right: 20px">bookmarks</i>Publisher</a>
+          <a class="mdl-navigation__link" href="login.html"><i class="small material-icons" style="padding-right: 20px">lock_open</i>Login</a>
+        </nav>
+        </div-->
+
+        <!-- Add spacer, to align navigation to the right -->
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation -->
-      <span class="mdl-layout-title">Apps In Myanmar (CU-MDY)</span>
+      
         <a href="index1.html" class="is-active mdl-navigation__link"><i class="small material-icons">home</i></a>
         <a class="mdl-navigation__link" href="applications.html">Applications</a>
         <a class="mdl-navigation__link" href="latestapps.html">Latest Apps</a>
         <a class="mdl-navigation__link" href="search.html">Search</a>
-        <a class="mdl-navigation__link" href="login.html">Login</a>
 
       
     </div>
@@ -92,49 +115,89 @@
       <a class="mdl-navigation__link" href="login.html">Login</a>
     </nav>
   </div>
-  
- <main class="mdl-layout__content">
+
+       <main class="mdl-layout__content" style="margin-left: auto; margin-right: auto">
+       <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
     <div class="page-content"><!-- Your content goes here -->
- <div class="row">
-    <div class="col s12 m12">
-      <div class="card darken-1 hoverable">
-        <div class="card-content center-align">
-          <form action="#">
-  
-<!-- Square card -->
-<style>
-.demo-card-square.mdl-card {
-  width: 320px;
-  height: 320px;
-}
-.demo-card-square > .mdl-card__title {
-  color: #fff;
-  background:
-    url('images/ss.png') bottom right 15% no-repeat #ccc;
-}
-</style>
-<div class="card-content center-align">
-<div class="demo-card-square mdl-card mdl-shadow--2dp">
-  <div class="mdl-card__title mdl-card--expand">
-    
-  </div>
-  
-    <div class="mdl-card__supporting-text">
-    <a href="https://play.google.com/store/search?q=myanmar%20apps%20all&hl=en">
-    <h2 class="mdl-card__title-text"><i>More Myanmar Apps</i></a></h2>
-  </div>
-</div>
-<!-- FAB button with ripple -->
-
-</form>
-<!-- Expandable Textfield -->
-
-        </div>
+    <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="appName">
+        <label class="mdl-textfield__label" for="sample3">App Name...</label>
       </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="package_name">
+        <label class="mdl-textfield__label" for="sample3">Package Name...</label>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="dev_name">
+        <label class="mdl-textfield__label" for="sample4">Developer Name ..</label>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="dev_url">
+        <label class="mdl-textfield__label" for="sample4">Developer URL ...</label>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="dev_email">
+        <label class="mdl-textfield__label" for="sample4">Developer Email...</label>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="playstore">
+        <label class="mdl-textfield__label" for="sample4">Download Link...</label>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="file_size">
+        <label class="mdl-textfield__label" for="sample4">File Size...</label>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="app_description">
+        <label class="mdl-textfield__label" for="sample4">App Description...</label>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="tags">
+        <label class="mdl-textfield__label" for="sample4">Tags...</label>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="app_category">
+        <label class="mdl-textfield__label" for="sample4">App Category...</label>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="average_rating">
+        <label class="mdl-textfield__label" for="sample4">Average Rating...</label>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="total_rating">
+        <label class="mdl-textfield__label" for="sample4">Total Rating...</label>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="no_download">
+        <label class="mdl-textfield__label" for="sample4">No Of Download...</label>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="update_date">
+        <label class="mdl-textfield__label" for="sample4">Update Date...</label>
+      </div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="entry_date">
+        <label class="mdl-textfield__label" for="sample4">Entry Date...</label>
+      </div>
+
+      <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" type="submit" name="submit" onclick="internsApp.Create()">Submit</button>
+      <button onclick="logOut()">Logout</button>
+    </form>
+    </div>
     </div>
   </div>
-  
-<footer class="mdl-mega-footer">      
+</div>
+</section>
+</main>
+      <script src="js/admin.js"></script>
+      <script src="js/lib.js"></script>
+      <script src="admin.js"></script>
+
+          <footer class="mdl-mega-footer">      
             <div class="mdl-mega-footer__middle-section">
             <div class="mdl-mega-footer__drop-down-section">
             <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
@@ -175,7 +238,7 @@
             <ul class="mdl-mega-footer__link-list">
                <li><a href="QAN.html">Questions and Answers</a></li>
                
-              
+               
             </ul>
             </div>
             </div>
@@ -188,11 +251,11 @@
             </ul>
             </div>
           </footer>             
-      </main>
+      
 
      <script src="https://code.getmdl.io/1.2.1/material.min.js"></script>
     <!-- build:js scripts/main.min.js -->
-    <script src="scripts/main.js"></script>
+    <!--script src="scripts/main.js"></script-->
     <!-- endbuild -->
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
